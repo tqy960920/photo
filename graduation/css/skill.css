@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.skill{
+    width:80%;
+	margin:20px auto;
+}
+.skill>h4{
+    margin: auto;
+    font-size: 20px;
+    color: #076CE0;
+}
+.skills{
+    width:100%;
+    margin:20px auto;
+}
+.skill-item{
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+.skill-title{
+    width: 90%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.skill-img{
+    width:100%;
+}
+.skill-img>img{
+    width:100%;
+}
+.skill-msg{
+    font-size: 18px;
+    margin: 10px auto;
+}

@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+}
+.login-bg{
+	width:100%;
+	background-image: url("../image/bg.jpg");
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-size:100% 100%;
+	z-index: 0;
+}
+.opacity{
+	width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -400px;
+    -webkit-filter: opacity(0.8);
+    background-color: rgba(150,170,200,0.4);
+}
+.opacity:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.opacity>div:nth-child(1){
+	float:left;
+	width:50%;
+}
+.opacity>div:nth-child(1)>img{
+	width: 75%;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.opacity>div:nth-child(2){
+	float:right;
+	width:50%;
+	margin:50px 0px;
+}
+.log-name{
+	font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+.log-item{
+	width:100%;
+	height:70px;
+	margin-top:20px;
+	margin-left: 70px;
+}
+input[name=phone],input[name=password]{
+	width: 70%;
+    height: 40px;
+    line-height: 40px;    
+    font-size: 16px;
+    border: 0;
+    padding-left: 10px;
+}
+input[name=captcha]{
+	width: 50%;
+    height: 40px;
+    line-height: 40px;    
+    font-size: 16px;
+    border: 0;
+    padding-left: 10px;
+}
+.error{
+	display: block;
+	margin-top:10px;
+	color:#f00;
+}
+
+.log-item>button{
+	width:80px;
+	height:40px;
+	text-align: center;
+}
+.cancel{
+	display: block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 100px;
+}

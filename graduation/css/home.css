@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+}
+.home{
+    width:100%;
+    margin:auto;
+    min-height: 800px;
+}
+
+/*************轮播图****************/
+.lunbo{
+    width:100%;
+}
+.carousel-inner{
+    width:100%;
+}
+.adImg>img{
+    width:100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+/*主体*/
+.body{
+    width:80%;
+    margin:auto;
+}
+/*********************************************/
+.images{
+    width:100%;
+    margin:20px auto;
+}
+.img-item{
+    width:100%;
+}
+.little,.big{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+.little>a,.big>a{
+    display: block;
+    width:100%;
+}
+.little>a>img,.big>a>img{
+    width: 100%;
+    transition:transform 0.4s linear;
+}
+.little:hover img,.big:hover img{
+    cursor: pointer;
+    transform:scale(1.2);
+ }
+.little>div,.big>div{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    height:32px;
+    background-color: rgba(0,0,0,0.4);
+    color:#eee;  
+ }
+.little>div>p,.big>div>p{
+    display: block;
+    text-align: center;
+}
+
+
+.big{
+    width:100%;
+}
+.big>img{
+    width: 100%;
+}
+
+/*****************红人推荐**********************/
+
+.home-item{
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: auto;
+}
+
+.home-item>p{
+    display: block;
+    font-size: 16px;
+    margin:10px;
+}
+.people-item>div:nth-child(1)>div p{
+    color: red;
+}
+.people-item>div:nth-child(2)>div p{
+    color: orange;
+}
+.people-item>div:nth-child(3)>div p{
+    color: blue;
+}
+.people-item>div:nth-child(4)>div p{
+    color: yellow;
+}
+.people-item>div:nth-child(5)>div p{
+    color: green;
+}
+.people-item>div:nth-child(6)>div p{
+    color: pink;
+}
+.home-item>a img{
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+}
+
+.item-anthor{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-anthor>div{
+    width:95%;
+    margin:auto;
+    height:30px;
+    line-height:30px;
+}
+.people-more:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.people-more>div{
+    float:right;
+}
+.people-more>div>i,.people-more>div>div{
+    display: inline-block;
+}
+
+/*****************设备介绍**********************/
+.equipment{
+    width: 100%;
+    margin: 50px 0px;
+    background: url(../image/home_equip.jpg) center center no-repeat;
+    background-size: 100%;
+}
+.equipment>div{
+    display:block;
+    margin:40px 0px;
+    text-align:center;
+    color:#fff;
+    font-size:24px;
+}
+.equipment>div:nth-child(1){
+    padding-top: 70px;
+}
+.equipment>div:nth-child(3)>a{
+    color: #fff;
+    width: 25%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    border: 3px solid #ccc;
+    text-decoration: none;
+}
+.equipment>div:nth-child(3)>a:hover{
+    color:#fff;
+    cursor:pointer;
+}
+.equipment>div:last-child{
+    padding-bottom: 70px;
+}
+/***********************帖子*****************/
+.posts{
+    width:100%;
+}
+.img-title{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0px;
+    font-size: 28px;
+    color: #076CE0;
+}
+.img-title:hover{
+    color:#076CE0;
+    text-decoration: none;
+}
+.item-all{
+    margin-bottom:40px;
+}
+.item-div{
+    border: 1px solid #ccc;
+    box-shadow: 0px 7px 28px #aaa;
+    width: 98%;
+    margin: 15px auto;
+}
+.item-div>a{
+    display: block;
+    width:100%;
+}
+.item-div>a>img{
+    width:100%;
+}
+.img-div{
+    width:90%;
+    margin:auto;
+}
+.img-div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.img-left{
+    float:left;
+    width:50%;
+    position: relative;
+}
+.img-left>img{
+    width:30%;
+    margin:10px 0px;
+}
+.img-left>div{
+    display: inline-block;
+    margin-left: 10px;
+    bottom: 25px;
+}
+.img-right{
+    float:right;
+}
+.img-right>p{
+    display: inline-block;
+    margin-top:25px;
+}
+.img-right>p:hover{
+    cursor: pointer;
+    color:#f00;
+}

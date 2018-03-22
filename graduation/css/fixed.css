@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+}
+/********************固定位置**********************/
+.fixed-div{
+    position: fixed;
+    right: 4%;
+    bottom: 20%;
+    width: 60px;
+    height: 150px;
+}
+.fixed-add{
+    width:60px;
+    height:60px;
+    background-color: #28B8C5;
+    border-radius: 5px;
+}
+.fixed-add>div{
+    color:#fff;
+    text-align: center;
+}
+.add{
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.add:hover{
+    cursor: pointer;
+    color:#fff;
+    text-decoration: none;
+}
+.add>i{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    padding: 8px;
+}
+
+.fixed-back{
+    width:60px;
+    height:60px;
+    margin-top:20px;
+    background-color: #C2C7C8;
+    border-radius: 5px;
+}
+.fixed-back>i{
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    display: block;
+}
+.fixed-back:hover{
+    cursor: pointer;
+}

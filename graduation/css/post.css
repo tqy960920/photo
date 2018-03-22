@@ -1,0 +1,276 @@
+*{
+	margin:0;
+	padding:0;
+}
+.my-post{
+	width:100%;
+	position: relative;
+}
+.my-top{
+	width:80%;
+	margin:20px auto;
+	font-size: 18px;
+}
+.my-top>div>a,.my-top>div>div{
+	display: inline-block;
+}
+.my-top>div>a{
+	color:#aaa;
+	text-decoration: none;
+}
+.my-top>div>a:hover{
+	color:#076CE0;
+}
+.my-top button{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #28B8C5;
+    border-radius: 5px;
+    border: 0;
+}
+.body-top{
+	width:80%;
+	margin:auto;
+}  
+.body-top>div{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+}
+.body-top>div:nth-child(2)>p{
+	display: inline-block;
+	margin-right:20px;
+}
+.body-top>div:nth-child(3)>a{
+	display: inline-block;
+	margin-right:20px;
+	width:60px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #F2FBFB;
+	color:#333;
+}
+.back{
+	background-color: #F2FBFB;
+	width:100%;
+	height:50px;
+}
+.body-body{
+	width:100%;
+	background-color:#F5F5F5;
+}
+.body-author{
+	width: 80%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.body-authorLeft{
+	width:100%;
+	margin-top: 10px;
+	background-color: #F2FBFB;
+}
+.body-authorLeft>a{
+	display: block;
+    width: 50%;
+    padding-top: 24px;
+    margin: auto;
+}
+.body-authorLeft>a>img{
+	width: 100%;
+}
+.body-authorLeft>p{
+	margin-top:10px;
+	text-align: center;
+}
+.body-authorLeft>p>i{
+	color:#aaa;
+	padding-right:10px;
+}
+.body-authorLeft>div{
+	margin-top: 20px;
+	width:100%;
+	border-top:1px dashed #ccc;
+}
+.aready1{
+	margin: 15px auto;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #FF6619;
+    border-radius: 5px;
+}
+.aready2{
+	margin: 15px auto;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #28B8C5;
+    border-radius: 5px;
+}
+.aready1:hover,.aready2:hover{
+	cursor: pointer;
+}
+.aready2 i{
+	padding-right:10px;
+}
+.body-authorRight{
+	width:100%;
+	background-color: #fff;
+}
+.body-authorRight>div{
+	width:95%;
+	margin:10px auto;
+}
+.body-authorRight>div:nth-child(1){
+	border-bottom:1px dashed #ccc;
+}
+.authorRight-time:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.authorRight-time>div{
+	height:30px;
+	margin-top:15px;
+	margin-bottom: 5px;
+}
+.authorRight-time>div:nth-child(1){
+	float:left;
+	color:#85A6A6;
+}
+.floor>p{
+	display: inline-block;
+}
+.floor>p:nth-child(1){
+	font-size: 20px;
+}
+.authorRight-time>div:nth-child(2){
+	float:right;
+}
+.authorRight-title>p,.authorRight-read>p{
+	display: inline-block;
+}
+.img-love{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.img-love img{
+	width:100%;
+}
+.img-love>div{
+	position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 18px;
+}
+.img-love i{
+	width: 100%;
+}
+.img-love i:hover{
+	color: #f00;
+	cursor: pointer;
+}
+.graphy-like{
+	float:right;
+}
+.graphy-like>p{
+	display: inline-block;
+}
+
+
+
+
+.graphy-comment{
+	width:80%;
+	margin:20px auto;
+}
+.this-comment{
+	width:100%;
+}
+.comment{
+
+}
+.body-comment{
+	width:100%;
+	min-height:300px;
+	background-color: #fff;
+	margin:30px auto;
+}
+.comment-show{
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.border{
+	margin: auto;
+    border-bottom: 1px dashed #ccc;
+}
+.comment-left{
+	width:100%;
+}
+.comment-left>img{
+	display: block;
+    width: 50%;
+    padding-top: 24px;
+    margin: auto;
+}
+.comment-left>div{
+    text-align: center;
+    margin-top:10px;
+}
+.answer{
+	width:95%;
+	padding-left: 10px;
+    padding-top: 10px;
+	min-height: 120px;
+	border:0;
+	margin:20px auto;
+	background-color: #F8F8F8;
+}
+.answer-time{
+	margin:20px;
+}
+.fabiao{
+    margin: 15px auto;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #28B8C5;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 70px;
+    float: right;
+}
+
+#dialog{
+	position: absolute;
+	z-index: 1;
+	width:250px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	top:80%;
+	left:50%;
+	margin-left:-125px;
+	margin-top:-50px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	color:#fff;
+	display: none;
+}

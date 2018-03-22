@@ -1,0 +1,263 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.people{
+	width:100%;
+	background-color: #F5F5F5;
+}
+.p{
+	width:80%;
+	margin:auto;
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+.p-item{
+	width:95%;
+	margin:auto;
+}
+.pLeft-top{
+	width:100%;
+	height:60px;
+	background:linear-gradient(#F3F9FA,#E7F3F4);
+}
+.pLeft-top>p{
+	width:90%;
+	margin:auto;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/****************最高人气排行前三********/
+.pLeft-topHot{
+	width:100%;
+}
+.pLeft-img{
+	width:90%;
+	margin:auto;
+}
+.pLeft-img>div:nth-child(1),.pLeft-img>div:nth-child(3){
+	margin-top:50px;
+}
+.pLeft-img>div:nth-child(2){
+	margin-top: 20px;
+}
+
+.pLeft-header{
+	width:65%;
+	margin:auto;
+}
+.pLeft-header>a{
+	display: block;
+	width: 100%;
+}
+.pLeft-header>a>img{
+	width:100%;
+	border-radius: 50%;
+}
+.bg1{
+    background-image: url(../image/other.png);
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+}
+.bg11{
+	background-position: 0px -29px;
+}
+.bg12{
+	background-position: 0px 0px;
+}
+.bg13{
+	background-position: 0px -58px;
+}
+.bg2{
+	background-image: url(../image/other.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 33px;
+    position: relative;
+    left: -13px;
+    z-index: 0;
+    top: -6px;
+}
+.bg2>p{
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    height: 35px;
+    line-height: 35px;
+}
+.bg21{
+	background-position: -59px -34px;
+}
+.bg22{
+	background-position: -59px -0px;
+}
+.bg23{
+	background-position: -59px -70px;
+}
+
+/************排行榜其他用户布局********/
+.pLeft-topOther>table{
+	width:100%;
+	margin:20px 0px;
+}
+.top-table>thead>tr th:nth-child(1){
+	text-align: center;
+}
+#hot-tbody>tr>td:nth-child(1){
+	width:15%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+#hot-tbody>tr>td:nth-child(2){
+	width:15%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#hot-tbody>tr>td:nth-child(2)>a{
+	display: block;
+	width:50%;
+	/*border-radius: 50%;*/
+}
+#hot-tbody>tr>td:nth-child(2)>a img{
+	width:100%;
+	border-radius: 50%;
+}
+#hot-tbody>tr>td:nth-child(3){
+	width:50%;
+	height:40px;
+	line-height: 40px;
+}
+#hot-tbody>tr>td:nth-child(4){
+	width:30%;
+	height:40px;
+	line-height: 40px;
+}
+
+.pRight-top{
+	width:100%;
+	height:60px;
+	background:linear-gradient(#FAF7EF,#F4EFDD);
+}
+.pRight-top>p{
+	width:90%;
+	margin:auto;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.pRight-img{
+	width:90%;
+	margin:20px auto;
+}
+/*.pRight-img-item>a{
+	display: block;
+	width: 80%;
+	margin:auto;
+}*/
+.change{
+	width:100%;
+	padding-top: 66.5%;
+	position: relative;
+	overflow: hidden;
+}
+.change>img{
+	display: block;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;	
+	bottom:0;
+}
+.change>img:not(:first-child){
+	transform:translate(100%,0);
+}
+.nav-left{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:30px;
+	bottom:50%;	
+	background-image: url('../images/left.png');
+	background-size: 100%;
+	display: none;
+}
+.nav-right{
+	width:40px;
+	height:40px;
+	position: absolute;
+	right:30px;
+	bottom:50%;	
+	background-image: url('../images/right.png');
+	background-size: 100%;
+	display: none;
+}
+.change:hover .nav-left,.change:hover .nav-right{
+	display: block;
+	cursor: pointer;
+}
+.navNum{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:10%;
+	text-align: center;
+}
+.navNum>i{
+	width:30px;
+	height:30px;
+	margin-left:20px;
+	display: inline-block;
+	border-radius: 50%;
+	/*border:1px solid #fff;*/
+}
+.navNum>.navactived{
+	color:#f00;
+}
+.navNum>i:hover{
+	cursor: pointer;
+	color:#f00;
+}
+.leftin{
+	animation: leftin 2s linear forwards;
+}
+.rightout{
+	animation: rightout 2s linear forwards;
+}
+
+@keyframes leftin{
+	from  {transform: translateX(-100%);}
+	to    {transform: translateX(0%);}
+}
+
+@keyframes rightout{
+	from  {transform: translateX(0%);}
+	to    {transform: translateX(100%);}
+}
+
+.rightin{
+	animation: rightin 2s linear forwards;
+}
+.leftout{
+	animation: leftout 2s linear forwards;
+}
+
+@keyframes rightin{
+	from  {transform: translateX(100%);}
+	to    {transform: translateX(0%);}
+}
+
+@keyframes leftout{
+	from  {transform: translateX(0%);}
+	to    {transform: translateX(-100%);}
+}

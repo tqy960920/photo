@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+.chatPost{
+	width:100%;
+	margin:20px auto;
+	background-color: #f5f5f5;
+}
+.chatPost-title{
+    width: 80%;
+    margin:20px auto;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.chatPost-title>div>a,.chatPost-title>div>div{
+	display: inline-block;
+}
+.chatPost-title>div>a{
+	color:#aaa;
+	text-decoration: none;
+}
+.chatPost-title>div>a:hover{
+	color:#076CE0;
+}
+.chatPost-title button{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #28B8C5;
+    border-radius: 5px;
+    border: 0;
+}
+.chatP-t{
+	text-align: center;
+}
+.chatP-item{
+	width:80%;
+	margin: 20px auto;
+	background-color: #fff;
+}
+.chatP-left{
+	width:60%;
+	margin:auto;
+	background-color: #F2FBFB;
+}
+
+.chatP-left>img{
+	width:100%;
+	display: block;
+}
+.chatP-mid>div{
+	margin-left:20px;
+	margin-top:20px;
+	width:100%;
+}
+.chatP-mid>div>p{
+	display: inline-block;
+	margin-right:10px;
+}
+.chatP-mid>div>p:nth-child(1){
+	color:#B4A15F;
+}
+.chatP-bom{
+
+}
+
+.chatP-right{
+	width: 90%;
+    text-align: center;
+    margin-top: 45px;
+}
+.chatP-right>div>p{
+	display: inline-block;
+	font-size: 16px;
+	color:#85AEC5;
+}
+.chatP-right>div>p:nth-child(1){
+	font-size: 18px;
+
+}
+
+
+
+.body-comment{
+	width:80%;
+	min-height:230px;
+	background-color: #fff;
+	margin:auto;
+}
+.comment-show{
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.border{
+	margin: auto;
+    border-bottom: 1px dashed #ccc;
+}
+.comment-left{
+	width:100%;
+}
+.comment-left>img{
+	display: block;
+    width: 50%;
+    padding-top: 24px;
+    margin: auto;
+}
+.comment-left>div{
+    text-align: center;
+    margin-top:10px;
+}
+.answer{
+	width:95%;
+	padding-left: 10px;
+    padding-top: 10px;
+	min-height: 120px;
+	border:0;
+	margin:20px auto;
+	background-color: #F8F8F8;
+}
+.answer-time{
+	margin:20px;
+}
+.fabiao{
+    margin: 15px auto;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color: #28B8C5;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 70px;
+    float: right;
+}
+#dialog{
+	position: absolute;
+	z-index: 1;
+	width:250px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	top:80%;
+	left:50%;
+	margin-left:-125px;
+	margin-top:-50px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	color:#fff;
+	display: none;
+}
